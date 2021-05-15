@@ -6,12 +6,9 @@
 
 body{
   font-family: Arial, Arial, Helvetica, sans-serif;
-}
-
-a{
-  text-decoration: none;
-  color:white;
-  font-size: 20px;
+  background: url("./images/mountain.jpg");
+  height:80vh;
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -30,6 +27,17 @@ nav{
   align-items: center;
 }
 
+/* links */
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+/* hover effect on the links */
+a:hover{
+  color:lavender;
+}
+
 .navlinks{
   display: flex;
   /* gets rid of the dots */
@@ -44,4 +52,12 @@ nav{
   background: url("./images/mountain.jpg");
   height:80vh;
   background-repeat: no-repeat;
+}
+/* card */
+.card-title{
+  text-align: center;
+}
+
+.card-body{
+  justify-content: center;
 }
