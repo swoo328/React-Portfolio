@@ -9,8 +9,8 @@ body{
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   background: url("./images/mountain.jpg");
-  height:80vh;
   background-repeat: no-repeat;
+  background-size:cover;
 }
 
 h1{
@@ -59,20 +59,46 @@ a:hover{
   height:80vh;
   background-repeat: no-repeat;
 }
-/* card */
-.card-title{
-  text-align: center;
-}
 
-.card-body{
-  justify-content: center;
-}
-
-h2{
-  text-align: center;
-}
 /* ABOUT page */
 .card{
   margin: 0 auto;
   background-color:lavender;
 }
+
+/* Portfolio page */
+.text-center{
+  width:25rem;
+  margin-top: 30px;
+  height:30rem;
+}
+
+.text-center:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+ }
+
+ .card-body{
+  padding:3rem 0 !important;
+ }
+
+ .card-text{
+   font-size: 1rem;
+   padding:0.4rem 1.9rem;
+ }
+
+ .containe-fluid .row{
+   padding-top: 6rem;
+ }
+
+ /* image hovering  */
+ .overflow{
+   overflow:hidden;
+ }
+
+ .card-img-top{
+   transform: scale(1);
+ }
+
+ .card-img-top:hover{
+   transform: scale(1.5);
+ }

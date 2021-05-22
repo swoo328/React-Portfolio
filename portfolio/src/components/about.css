@@ -1,6 +1,13 @@
+h2{
+    text-align: center;
+    margin-top:200px;
+    color:lavender;
+  }
+
+/* Card CSS */
 .Card{
     width:40%;
-    height:500px;
+    height:600px;
     background: white;
     border-radius: 10px;
     box-shadow: 0px 1p 10px 1px black;
@@ -10,13 +17,15 @@
 
 .image-container img{
     width:100%;
-    height:200px;
+    height:300px;
     margin: 0 auto;
     display:block;
 }
 
 .lower-container p, h3{
     text-align: center; 
+    font-size:18px;
+    font-family: 'titillium web', sans-serif;
 }
 
 button{
