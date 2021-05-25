@@ -1,10 +1,24 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import './contact.css'
 
 function Contact (){
     return(
-        <h2>CONTACT</h2>
-        //form
+        <>
+        <form className = "form">
+            <h2>CONTACT</h2>
+            <label>Name</label>
+            <input placeholder = "name"/>
+
+            <label>Email</label>
+            <input placeholder = "email"/>
+
+            <label>Phone</label>
+            <input placeholder = "phone"/>
+
+            <label>Message</label>
+            <textarea placeholder = "Message"></textarea>
+        </form>
+        </>
     )
 }
 
