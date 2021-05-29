@@ -12,15 +12,19 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
 }
-
+/* nav top left */
 h1{
-  font-size: 25px;
+  font-size: 1.7rem;
   color:white;
 }
 /* typewriting */
-.typing{
+.intro{
+  margin-top: 1em;
   text-align: center;
-  font-size: 30px;
+  font-size: 3rem;
+  font-weight:bold;
+  color: #D0DFF5;
+  text-shadow:2px 2px 2px #000;
 }
 
 /* navbar  */
@@ -31,6 +35,7 @@ nav{
   min-height: 8vh;
   width: 100%;
   align-items: center;
+  background-color: #291940;
 }
 
 /* links */
@@ -50,6 +55,7 @@ a:hover{
   list-style: none;
   /* giving space between the nav links */
   justify-content: space-around;
+  font-weight:bold;
   width:30%;
 }
 
@@ -63,12 +69,12 @@ a:hover{
 /* ABOUT page */
 .card{
   margin: 0 auto;
-  background-color:lavender;
+  background-color:#291940;
 }
 
 /* Portfolio page */
 .text-center{
-  width:25rem;
+  width:35rem;
   margin-top: 30px;
   height:30rem;
 }
@@ -80,14 +86,21 @@ a:hover{
  .card-body{
   padding:3rem 0 !important;
  }
-
+ /* title of the projects */
+ h4{
+   font-weight: bold;
+   font-size: 2rem;
+   color: lavender;
+ }
+/* description of the projects */
  .card-text{
-   font-size: 1rem;
+   font-size: 1.1rem;
    padding:0.4rem 1.9rem;
+   font-weight: bold;
  }
 
  .containe-fluid .row{
-   padding-top: 6rem;
+   padding-top: 5rem;
  }
 
  /* image hovering  */
